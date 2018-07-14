@@ -16784,6 +16784,7 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
+  /* Users edit */
 }
 
 footer a {
@@ -16873,5 +16874,33 @@ footer input {
 
 footer .panel {
   margin-top: 50px;
+}
+
+footer .gravatar_edit {
+  margin: 15px auto;
+  text-align: center;
+}
+
+footer .gravatar_edit .gravatar {
+  float: none;
+  max-width: 100px;
+}
+
+.users {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.users li {
+  overflow: auto;
+  padding: 10px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.delete-btn {
+  float: right;
+  position: relative;
+  right: 0;
 }
 
